@@ -1,0 +1,7 @@
+.footer
+{
+    margin-top: 7rem;
+    display: flex;
+    font-size: 14px;
+    gap: 5rem;
+}

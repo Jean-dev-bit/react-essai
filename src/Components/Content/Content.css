@@ -1,0 +1,32 @@
+.content{
+    display: flex;
+    margin-top: 7rem;
+    gap: 7rem;
+}
+.cleft{
+    border-radius: 15px;
+    width: 25rem;
+    height: 15rem;
+}
+.cleft>img{
+    height: 20rem;
+    width: 20rem;
+    border-radius: 15px;
+    
+}
+.cright{
+    width: 70%;
+}
+.cright>span>p{
+   color: gray;
+   font-size: 12px;
+}
+@media screen and (max-width:480px) {
+    .content{
+        flex-direction: column;
+    }
+    .cleft>img{
+        width: 90%;
+    }
+
+}
